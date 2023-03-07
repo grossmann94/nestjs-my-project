@@ -16,7 +16,7 @@ import { Cat } from './cats/cat.entity';
       username: 'myuser',
       password: 'mypassword',
       database: 'mydb',
-      entities: [Cat],
+      autoLoadEntities: true,
       synchronize: true,
     }),
   ],
